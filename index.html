@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Trigonométrica</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="card">
+        <h2>Calculadora Trigonométrica</h2>
+
+        <label>Ângulo (em graus):</label>
+        <input type="number" id="angulo" placeholder="Ex: 45" />
+
+        <label>Escolha a função:</label>
+        <select id="funcao">
+            <option value="sin">Seno</option>
+            <option value="cos">Cosseno</option>
+            <option value="tan">Tangente</option>
+        </select>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
